@@ -1,0 +1,59 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "jsx": "preserve",
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "moduleResolution": "classic",
+    "removeComments": false
+  },
+  "compileOnSave": false,
+  "exclude": [
+    "node_modules",
+    "server.js",
+    "typings/main.d.ts",
+    "typings/main"
+  ],
+  "filesGlob": [
+    "**/*.ts",
+    "**/*.tsx",
+    "!node_modules/**"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  },
+  "files": [
+    "main.ts",
+    "src/actions/app-actions.ts",
+    "src/browser/application.ts",
+    "src/browser/local-storage.ts",
+    "src/lib/redux-component.ts",
+    "src/lib/store.ts",
+    "src/reducers/app-reducer.ts",
+    "src/reducers/root-reducer.ts",
+    "src/renderer/window-settings.ts",
+    "typings/browser.d.ts",
+    "typings/browser/ambient/github-electron/index.d.ts",
+    "typings/browser/ambient/history/index.d.ts",
+    "typings/browser/ambient/lodash/index.d.ts",
+    "typings/browser/ambient/node/index.d.ts",
+    "typings/browser/ambient/react-dom/index.d.ts",
+    "typings/browser/ambient/react-redux/index.d.ts",
+    "typings/browser/ambient/react-router/history/index.d.ts",
+    "typings/browser/ambient/react-router/index.d.ts",
+    "typings/browser/ambient/react/index.d.ts",
+    "typings/browser/ambient/redux-devtools-dock-monitor/index.d.ts",
+    "typings/browser/ambient/redux-devtools-log-monitor/index.d.ts",
+    "typings/browser/ambient/redux-devtools/index.d.ts",
+    "typings/browser/ambient/redux-logger/index.d.ts",
+    "typings/browser/ambient/redux-thunk/index.d.ts",
+    "typings/browser/ambient/redux/index.d.ts",
+    "typings/browser/ambient/reselect/index.d.ts",
+    "typings/overrides.d.ts",
+    "src/renderer/app.tsx",
+    "src/renderer/dev-tools.tsx",
+    "src/renderer/index.tsx",
+    "src/renderer/main.tsx"
+  ]
+}
